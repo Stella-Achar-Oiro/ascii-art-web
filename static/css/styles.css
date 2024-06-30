@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #007BFF;
+    text-align: center;
+    font-size: 40px;
+}
+
+.result {
+    width: 800px;
+    margin: auto;
+}
+
+.result h1 {
+    text-align: center;
+}
+
+#asciiForm {
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    margin: 20px auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 99%;
+    height: 50px;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 15px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.result a {
+    display: block; /* Ensure the link takes up the full width */
+    margin: 20px auto;
+    width: 50%; /* Span 50% of the .result width */
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.result a:hover {
+    background-color: #0056b3;
+}
+
+#banner {
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+pre {
+    width: 100%; /* or specify a fixed width like 800px */
+    max-width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-x: auto;
+}
